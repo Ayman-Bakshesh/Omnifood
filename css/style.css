@@ -1,6 +1,6 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 a{
     color: unset;
@@ -244,6 +244,7 @@ h2::after{
 
 }
 .Citie img{
+
     width: 100%;
     transition: 0.5s;
     filter: grayscale(0.6);
@@ -300,4 +301,102 @@ h3{
     border-radius: 50%;
     vertical-align:middle;
     margin-right: 20px;
+}
+#priseing{
+    background-color: #F4F4F4;
+}
+
+.inner{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.price{
+    color: orange;
+    margin-bottom: 10px;
+}
+.price span{
+    font-size: 3rem;
+}
+.pp{
+    margin-bottom: 10px;
+
+}
+.check{
+    display: flex;
+    margin: 20px 0px;
+}
+.check p{
+    margin-left: 20px;
+}
+.check i{
+    color: orange;
+}
+.offer-footer{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+label{
+    font-size: 20px;
+    color: #333;
+}
+input[type=text] ,[type=email] ,textarea 
+{
+    font-family: 'Lato', sans-serif;
+    border: solid 1px #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+    background-color: rgba(255, 255, 255);
+}
+input[type=checkbox]{
+    margin-bottom: 15px;
+    width: 5%;
+    background-color: rgba(255, 255, 255);
+
+}
+select
+{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+input[type=submit]{
+    border: solid 2px orange;
+    padding: 7px 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 50px;
+    background-color: orange;
+    color: white;
+}
+.foo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+footer{
+
+    background-color: #333;
+    padding: 50px 100px 25px 100px ;
+    color: rgb(114, 114, 114);
+}
+.about{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+.about-ic{
+    width: 8%;
+    display: flex;
+    justify-content: space-around;
+}
+footer p{
+    text-align: center;
 }
