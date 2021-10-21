@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="images/logo-white.png"/>
+    <link rel="stylesheet" href="css/animate.css">
+
 
 </head>
 <body>
@@ -19,7 +21,7 @@
         
         <div class="container">
             <nav>
-                <img class="logo" src="images/logo-white.png" alt="">
+                <img class="logo wow pulse"  src="images/logo-white.png" data-wow-duration="2s" data-wow-delay="1s" alt="">
                 <ul class="main-nav">
                     <li><a href="#priseing">Food delivery</a></li>
                     <li><a href="#works">How it works</a></li>
@@ -27,7 +29,7 @@
                     <li><a href="#Contacts">Sign up</a></li>
                 </ul>
             </nav>
-            <DIv class="hero-box">
+            <DIv class="hero-box wow fadeInDown" data-wow-duration="2s" data-wow-delay="1.5s">
                 <h1>Goodbye junk food. <br> super healthy meals.</h1>
                 <a href="#" class="btn">I’m hungry</a>
                 <a href="#Features" class="btn">Show me more</a>
@@ -412,5 +414,10 @@
         
         <p>copyright © 2021 by Eng.Ayman Bakshesh.all rights reserved</p>
     </footer>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>
