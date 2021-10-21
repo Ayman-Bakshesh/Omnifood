@@ -154,7 +154,16 @@ h2::after{
 }
 
 .infinity i{
+    opacity: 0.8;
+    transition: 0.5s;
     color: orange;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.infinity i:hover{
+    opacity: 1;
+    transition: 0.5s;
+    color: rgb(236, 127, 2);
     font-size: 40px;
     margin-bottom: 30px;
 }
